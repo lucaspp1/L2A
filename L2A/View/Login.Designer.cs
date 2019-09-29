@@ -32,8 +32,8 @@
             this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
-            this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.btnLogin = new MaterialSkin.Controls.MaterialFlatButton();
+            this.btnCadastro = new MaterialSkin.Controls.MaterialRaisedButton();
             this.SuspendLayout();
             // 
             // materialLabel1
@@ -79,42 +79,42 @@
             this.materialLabel2.Text = "Senha";
             this.materialLabel2.Click += new System.EventHandler(this.MaterialLabel2_Click);
             // 
-            // materialFlatButton1
+            // btnLogin
             // 
-            this.materialFlatButton1.AutoSize = true;
-            this.materialFlatButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialFlatButton1.Depth = 0;
-            this.materialFlatButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialFlatButton1.Location = new System.Drawing.Point(28, 243);
-            this.materialFlatButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFlatButton1.Name = "materialFlatButton1";
-            this.materialFlatButton1.Primary = false;
-            this.materialFlatButton1.Size = new System.Drawing.Size(63, 36);
-            this.materialFlatButton1.TabIndex = 4;
-            this.materialFlatButton1.Text = "Login";
-            this.materialFlatButton1.UseVisualStyleBackColor = true;
-            this.materialFlatButton1.Click += new System.EventHandler(this.MaterialFlatButton1_Click);
+            this.btnLogin.AutoSize = true;
+            this.btnLogin.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnLogin.Depth = 0;
+            this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnLogin.Location = new System.Drawing.Point(28, 243);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnLogin.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Primary = false;
+            this.btnLogin.Size = new System.Drawing.Size(63, 36);
+            this.btnLogin.TabIndex = 4;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.MaterialFlatButton1_Click);
             // 
-            // materialRaisedButton1
+            // btnCadastro
             // 
-            this.materialRaisedButton1.Depth = 0;
-            this.materialRaisedButton1.Location = new System.Drawing.Point(144, 244);
-            this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton1.Name = "materialRaisedButton1";
-            this.materialRaisedButton1.Primary = true;
-            this.materialRaisedButton1.Size = new System.Drawing.Size(213, 35);
-            this.materialRaisedButton1.TabIndex = 5;
-            this.materialRaisedButton1.Text = "Cadastro";
-            this.materialRaisedButton1.UseVisualStyleBackColor = true;
+            this.btnCadastro.Depth = 0;
+            this.btnCadastro.Location = new System.Drawing.Point(144, 244);
+            this.btnCadastro.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnCadastro.Name = "btnCadastro";
+            this.btnCadastro.Primary = true;
+            this.btnCadastro.Size = new System.Drawing.Size(213, 35);
+            this.btnCadastro.TabIndex = 5;
+            this.btnCadastro.Text = "Cadastro";
+            this.btnCadastro.UseVisualStyleBackColor = true;
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(641, 353);
-            this.Controls.Add(this.materialRaisedButton1);
-            this.Controls.Add(this.materialFlatButton1);
+            this.Controls.Add(this.btnCadastro);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.metroTextBox2);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.metroTextBox1);
@@ -133,7 +133,7 @@
         private MetroFramework.Controls.MetroTextBox metroTextBox1;
         private MetroFramework.Controls.MetroTextBox metroTextBox2;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
-        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
-        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton1;
+        private MaterialSkin.Controls.MaterialFlatButton btnLogin;
+        private MaterialSkin.Controls.MaterialRaisedButton btnCadastro;
     }
 }
