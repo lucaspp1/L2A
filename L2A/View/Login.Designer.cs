@@ -107,6 +107,7 @@
             this.btnCadastro.TabIndex = 5;
             this.btnCadastro.Text = "Cadastro";
             this.btnCadastro.UseVisualStyleBackColor = true;
+            this.btnCadastro.Click += new System.EventHandler(this.BtnCadastro_Click);
             // 
             // Login
             // 

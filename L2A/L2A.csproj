@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAO\Service\FileHelper.cs" />
+    <Compile Include="DAO\UsuarioDao.cs" />
     <Compile Include="Model\Categoria.cs" />
     <Compile Include="Model\Comentario.cs" />
     <Compile Include="Program.cs" />

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using L2A.DAO;
+using L2A.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,10 +36,12 @@ namespace L2A.View
 
         private void MaterialFlatButton1_Click(object sender, EventArgs e)
         {
-            string login = txtLogin.Text;
-            string senha = txtSenha.Text;
-            string text = $" login: {login}\n senha: {senha}";
-            MessageBox.Show(text, "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void BtnCadastro_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

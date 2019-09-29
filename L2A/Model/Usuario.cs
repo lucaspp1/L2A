@@ -8,14 +8,12 @@ namespace L2A.Model
 {
     class Usuario
     {
-        public int id;
-        public string nome;
-        public string foto;
-        public string login;
-        public string senha;
 
-
-        
+        public int id { get; set; }
+        public string nome { get; set; }
+        public string foto { get; set; }
+        public string login { get; set; }
+        public string senha { get; set; }
 
 
     }

@@ -11,6 +11,12 @@ namespace L2A.DAO
     class UsuarioDao
     {
         FileHelper<Usuario> fileHelper = new FileHelper<Usuario>();
+
+        public List<Usuario> select()
+        {
+            return fileHelper.select();
+        }
+
         public bool insert(Usuario usuario)
         {
             return fileHelper.Insert(usuario, out _);
