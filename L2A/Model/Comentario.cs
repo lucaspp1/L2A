@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace L2A
+namespace L2A.Model
 {
-    class Usuario
+    class Comentario
     {
-        
-
     }
 }

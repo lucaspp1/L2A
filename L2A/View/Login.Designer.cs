@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
-            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
+            this.txtLogin = new MetroFramework.Controls.MetroTextBox();
+            this.txtSenha = new MetroFramework.Controls.MetroTextBox();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.btnLogin = new MaterialSkin.Controls.MaterialFlatButton();
             this.btnCadastro = new MaterialSkin.Controls.MaterialRaisedButton();
@@ -49,21 +49,21 @@
             this.materialLabel1.TabIndex = 0;
             this.materialLabel1.Text = "Login";
             // 
-            // metroTextBox1
+            // txtLogin
             // 
-            this.metroTextBox1.Location = new System.Drawing.Point(28, 128);
-            this.metroTextBox1.Name = "metroTextBox1";
-            this.metroTextBox1.Size = new System.Drawing.Size(590, 23);
-            this.metroTextBox1.TabIndex = 1;
+            this.txtLogin.Location = new System.Drawing.Point(28, 128);
+            this.txtLogin.Name = "txtLogin";
+            this.txtLogin.Size = new System.Drawing.Size(590, 23);
+            this.txtLogin.TabIndex = 1;
             // 
-            // metroTextBox2
+            // txtSenha
             // 
-            this.metroTextBox2.Location = new System.Drawing.Point(28, 193);
-            this.metroTextBox2.Name = "metroTextBox2";
-            this.metroTextBox2.PasswordChar = '*';
-            this.metroTextBox2.Size = new System.Drawing.Size(590, 23);
-            this.metroTextBox2.TabIndex = 3;
-            this.metroTextBox2.Click += new System.EventHandler(this.MetroTextBox2_Click);
+            this.txtSenha.Location = new System.Drawing.Point(28, 193);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.PasswordChar = '*';
+            this.txtSenha.Size = new System.Drawing.Size(590, 23);
+            this.txtSenha.TabIndex = 3;
+            this.txtSenha.Click += new System.EventHandler(this.MetroTextBox2_Click);
             // 
             // materialLabel2
             // 
@@ -115,9 +115,9 @@
             this.ClientSize = new System.Drawing.Size(641, 353);
             this.Controls.Add(this.btnCadastro);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.metroTextBox2);
+            this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.materialLabel2);
-            this.Controls.Add(this.metroTextBox1);
+            this.Controls.Add(this.txtLogin);
             this.Controls.Add(this.materialLabel1);
             this.Name = "Login";
             this.Text = "Login";
@@ -130,8 +130,8 @@
         #endregion
 
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
-        private MetroFramework.Controls.MetroTextBox metroTextBox1;
-        private MetroFramework.Controls.MetroTextBox metroTextBox2;
+        private MetroFramework.Controls.MetroTextBox txtLogin;
+        private MetroFramework.Controls.MetroTextBox txtSenha;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialFlatButton btnLogin;
         private MaterialSkin.Controls.MaterialRaisedButton btnCadastro;

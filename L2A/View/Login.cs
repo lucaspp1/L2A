@@ -34,7 +34,10 @@ namespace L2A.View
 
         private void MaterialFlatButton1_Click(object sender, EventArgs e)
         {
-
+            string login = txtLogin.Text;
+            string senha = txtSenha.Text;
+            string text = $" login: {login}\n senha: {senha}";
+            MessageBox.Show(text, "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
