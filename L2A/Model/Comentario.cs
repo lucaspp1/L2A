@@ -18,7 +18,7 @@ namespace L2A.Model
         public int idUsuario { get; set; }
 
         public Comentario(int idVideo, DateTime dataPublicacao, string mensagem, int idUsuario)
-        {
+        {   
             this.dataPublicacao = dataPublicacao;
             this.mensagem = mensagem;
             this.idUsuario = idUsuario;
