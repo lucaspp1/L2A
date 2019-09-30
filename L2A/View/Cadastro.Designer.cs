@@ -29,91 +29,122 @@
         private void InitializeComponent()
         {
             this.Login = new MetroFramework.Controls.MetroLabel();
-            this.btnLogin2 = new MetroFramework.Controls.MetroTextBox();
-            this.btnSenha = new MetroFramework.Controls.MetroTextBox();
+            this.txtLogin = new MetroFramework.Controls.MetroTextBox();
+            this.txtSenha = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
+            this.txtConfirmarSenha = new MetroFramework.Controls.MetroTextBox();
             this.LabelCS = new MetroFramework.Controls.MetroLabel();
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.btnCadastrar = new MetroFramework.Controls.MetroButton();
+            this.txtNome = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.SuspendLayout();
             // 
             // Login
             // 
             this.Login.AutoSize = true;
             this.Login.ForeColor = System.Drawing.Color.Black;
-            this.Login.Location = new System.Drawing.Point(32, 84);
+            this.Login.Location = new System.Drawing.Point(43, 103);
+            this.Login.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Login.Name = "Login";
-            this.Login.Size = new System.Drawing.Size(41, 19);
+            this.Login.Size = new System.Drawing.Size(43, 20);
             this.Login.TabIndex = 0;
             this.Login.Text = "Login";
             this.Login.Click += new System.EventHandler(this.Login_Click);
             // 
-            // btnLogin2
+            // txtLogin
             // 
-            this.btnLogin2.Location = new System.Drawing.Point(32, 119);
-            this.btnLogin2.Name = "btnLogin2";
-            this.btnLogin2.Size = new System.Drawing.Size(499, 23);
-            this.btnLogin2.TabIndex = 1;
+            this.txtLogin.Location = new System.Drawing.Point(43, 146);
+            this.txtLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLogin.Name = "txtLogin";
+            this.txtLogin.Size = new System.Drawing.Size(665, 28);
+            this.txtLogin.TabIndex = 1;
             // 
-            // btnSenha
+            // txtSenha
             // 
-            this.btnSenha.Location = new System.Drawing.Point(32, 202);
-            this.btnSenha.Name = "btnSenha";
-            this.btnSenha.PasswordChar = '*';
-            this.btnSenha.Size = new System.Drawing.Size(499, 23);
-            this.btnSenha.TabIndex = 3;
+            this.txtSenha.Location = new System.Drawing.Point(43, 311);
+            this.txtSenha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.PasswordChar = '*';
+            this.txtSenha.Size = new System.Drawing.Size(665, 28);
+            this.txtSenha.TabIndex = 3;
             // 
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.ForeColor = System.Drawing.Color.Black;
-            this.metroLabel1.Location = new System.Drawing.Point(32, 167);
+            this.metroLabel1.Location = new System.Drawing.Point(43, 268);
+            this.metroLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(44, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(47, 20);
             this.metroLabel1.TabIndex = 2;
             this.metroLabel1.Text = "Senha";
             // 
-            // metroTextBox3
+            // txtConfirmarSenha
             // 
-            this.metroTextBox3.Location = new System.Drawing.Point(32, 279);
-            this.metroTextBox3.Name = "metroTextBox3";
-            this.metroTextBox3.PasswordChar = '*';
-            this.metroTextBox3.Size = new System.Drawing.Size(499, 23);
-            this.metroTextBox3.TabIndex = 5;
+            this.txtConfirmarSenha.Location = new System.Drawing.Point(43, 405);
+            this.txtConfirmarSenha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtConfirmarSenha.Name = "txtConfirmarSenha";
+            this.txtConfirmarSenha.PasswordChar = '*';
+            this.txtConfirmarSenha.Size = new System.Drawing.Size(665, 28);
+            this.txtConfirmarSenha.TabIndex = 5;
             // 
             // LabelCS
             // 
             this.LabelCS.AutoSize = true;
             this.LabelCS.ForeColor = System.Drawing.Color.Black;
-            this.LabelCS.Location = new System.Drawing.Point(32, 244);
+            this.LabelCS.Location = new System.Drawing.Point(43, 362);
+            this.LabelCS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelCS.Name = "LabelCS";
-            this.LabelCS.Size = new System.Drawing.Size(108, 19);
+            this.LabelCS.Size = new System.Drawing.Size(112, 20);
             this.LabelCS.TabIndex = 4;
             this.LabelCS.Text = "Confirmar Senha";
             // 
-            // metroButton1
+            // btnCadastrar
             // 
-            this.metroButton1.Location = new System.Drawing.Point(32, 322);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(131, 34);
-            this.metroButton1.TabIndex = 6;
-            this.metroButton1.Text = "Confirmar";
+            this.btnCadastrar.Location = new System.Drawing.Point(43, 468);
+            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(175, 42);
+            this.btnCadastrar.TabIndex = 6;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.Click += new System.EventHandler(this.MetroButton1_Click);
+            // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(43, 234);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(665, 28);
+            this.txtNome.TabIndex = 8;
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.ForeColor = System.Drawing.Color.Black;
+            this.metroLabel2.Location = new System.Drawing.Point(43, 191);
+            this.metroLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(48, 20);
+            this.metroLabel2.TabIndex = 7;
+            this.metroLabel2.Text = "Nome";
             // 
             // Cadastro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
-            this.Controls.Add(this.metroButton1);
-            this.Controls.Add(this.metroTextBox3);
+            this.ClientSize = new System.Drawing.Size(791, 558);
+            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.metroLabel2);
+            this.Controls.Add(this.btnCadastrar);
+            this.Controls.Add(this.txtConfirmarSenha);
             this.Controls.Add(this.LabelCS);
-            this.Controls.Add(this.btnSenha);
+            this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.metroLabel1);
-            this.Controls.Add(this.btnLogin2);
+            this.Controls.Add(this.txtLogin);
             this.Controls.Add(this.Login);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Cadastro";
-            this.Padding = new System.Windows.Forms.Padding(15, 49, 15, 16);
+            this.Padding = new System.Windows.Forms.Padding(20, 74, 20, 20);
             this.Text = "Cadastro";
             this.Load += new System.EventHandler(this.Cadastro_Load);
             this.ResumeLayout(false);
@@ -124,11 +155,13 @@
         #endregion
 
         private MetroFramework.Controls.MetroLabel Login;
-        private MetroFramework.Controls.MetroTextBox btnLogin2;
-        private MetroFramework.Controls.MetroTextBox btnSenha;
+        private MetroFramework.Controls.MetroTextBox txtLogin;
+        private MetroFramework.Controls.MetroTextBox txtSenha;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private MetroFramework.Controls.MetroTextBox metroTextBox3;
+        private MetroFramework.Controls.MetroTextBox txtConfirmarSenha;
         private MetroFramework.Controls.MetroLabel LabelCS;
-        private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Controls.MetroButton btnCadastrar;
+        private MetroFramework.Controls.MetroTextBox txtNome;
+        private MetroFramework.Controls.MetroLabel metroLabel2;
     }
 }

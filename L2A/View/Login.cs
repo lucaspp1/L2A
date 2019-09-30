@@ -47,7 +47,9 @@ namespace L2A.View
             {
                 if (usuarioController.login(txtLogin.Text, txtSenha.Text))
                 {
+                    this.Visible = false;
                     new VideView().ShowDialog(this);
+                    this.Visible = true;
                 }
                 else
                 {
@@ -58,7 +60,7 @@ namespace L2A.View
 
         private void BtnCadastro_Click(object sender, EventArgs e)
         {
-
+            new Cadastro().ShowDialog(this);
         }
     }
 }
