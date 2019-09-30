@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace L2A.View
 {
-    public partial class Cadastro : MetroFramework.Forms.MetroForm
+    public partial class UsuarioView : MetroFramework.Forms.MetroForm
     {
-        public Cadastro()
+        public UsuarioView()
         {
             InitializeComponent();
         }
 
-        private void Cadastro_Load(object sender, EventArgs e)
+        private void UsuarioView_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void Login_Click(object sender, EventArgs e)
+        private void metroLabel2_Click(object sender, EventArgs e)
         {
 
         }
